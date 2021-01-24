@@ -9,6 +9,8 @@ class Application {
   /// method to start application module - main module
   void startApp() {
     lineToDecorate(30, "=");
+    displayWelcomeMessage();
+    lineToDecorate(30, "=");
   }
   
   /// method to print decorative lines

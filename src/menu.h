@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include <conio.h>
+#include <stdio.h>
+#include <time.h>
 
 class MenuOptions {
   public:
@@ -21,7 +23,9 @@ class MenuOptions {
       printf("\n2. See employee status");
       printf("\n3. See Product Entries");
     }
-    void getProductItemsList() {
-      clrscr();
+    void getProductItemsList();
+    void displayWelcomeMessage() {
+      system("cls");
+      printf("");
     }
 };
